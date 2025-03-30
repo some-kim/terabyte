@@ -55,3 +55,21 @@ Mined and forest datasets were outer-joined on country and year, forming table (
 # 5. Noteable results
 
 PCA graph showed the results of a KMeans clustering analysis on deforestation data across different countries. Each point represents a country and the axes are the two "principal components" that capture the most variance in the data. Using KMeans clustering on deforestation trends from 1990 to 2015, we identified four distinct groups of countries based on the similarity of their forest loss patterns. Cluster 0 (green) contains the majority of countries such as Austria, and Belgium that experienced low or stable deforestation rates over time. These nations often have smaller forested areas, effective environmental regulations, or limited industrial-scale deforestation. Cluster 1 (orange) consists solely of the Russian Federation likely due to its large forested area and low deforestation levels spread across its region  making its pattern unlike the others. Similarly, Cluster 2 (blue) includes only Brazil  whose extreme deforestation levels  in the Amazon set it apart from all other countries. Cluster 3 (purple) groups Canada and China, which may share moderately high deforestation trends with consistent year-to-year fluctuations—potentially tied to industrial logging or land-use changes. These results highlight that while most countries follow similar environmental trends, a few outliers show unique or concerning deforestation behaviors that need deeper attention
+
+**Dev Environment Set Up**
+
+Prerequisites
+
+- Ensure you have Python installed. You can download it from python.org.
+
+- Clone the repository
+
+- Create a virtual environment (optional but recommended)
+
+- python -m venv venv
+- source venv/bin/activate  
+
+Install dependencies
+
+- pip install -r requirements.txt
+

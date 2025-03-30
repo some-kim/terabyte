@@ -60,7 +60,7 @@ PCA graph showed the results of a KMeans clustering analysis on deforestation da
 
 Prerequisites
 
-- Ensure you have Python installed. You can download it from python.org.
+- Ensure you have Python installed
 
 - Clone the repository
 
